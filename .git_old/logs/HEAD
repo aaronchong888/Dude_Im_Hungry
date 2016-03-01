@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 6f18b1d95f35e099edfc62bd7c086056e2823eae = <omar112694@gmail.com> 1444079614 -0700	clone: from https://github.com/atomar94/DudeImHungry.git
+6f18b1d95f35e099edfc62bd7c086056e2823eae 1805fbc609359c058924a176865ee638770639fe = <omar112694@gmail.com> 1454814275 -0800	commit: Fixed location code so app won't crash on startup. Location does not currently work and can't connect to Google Play Services but at least it won't crash.
+1805fbc609359c058924a176865ee638770639fe 08cc18530d2770c94d2a99c4c03d81c004012c7f = <omar112694@gmail.com> 1454910656 -0800	commit (amend): App does not crash after opening location settings. App still auto-asks to enable location settings immediately on launch
+08cc18530d2770c94d2a99c4c03d81c004012c7f 0164e91381538de285c2e88e247e84295dd2604e = <omar112694@gmail.com> 1454910729 -0800	commit (merge): Merge remote-tracking branch 'origin/master'
+0164e91381538de285c2e88e247e84295dd2604e 3e71c5d23c058c3c714d6e619fabcd6ce81d244d = <omar112694@gmail.com> 1454913360 -0800	commit: Added functionality to get current location and parse location updates. Added ability to disable location updates if app goes into the background so we save power.
+3e71c5d23c058c3c714d6e619fabcd6ce81d244d 87d36f62e79450730fefc30e7f88549f77534e0d = <omar112694@gmail.com> 1456257346 -0800	commit: Removed gradle files from git
+87d36f62e79450730fefc30e7f88549f77534e0d 19aff5feda8ab90d22a14d6b8cea0ee4e7d71dda = <omar112694@gmail.com> 1456257547 -0800	commit: Removed even more gradle stuff
+19aff5feda8ab90d22a14d6b8cea0ee4e7d71dda 5753e40a388bd30520b777cc55c4eabf7b2c8327 = <omar112694@gmail.com> 1456631245 -0800	commit: LaunchActivity - fixed a bug where googleApiClient would connect before a
+5753e40a388bd30520b777cc55c4eabf7b2c8327 e57936dd87a9e23a00667e38a680a0471dd38e91 = <omar112694@gmail.com> 1456643385 -0800	commit: Removed old code. locations now through Google

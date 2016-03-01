@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DudeImHungry</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_food_map">Map</string>
+    <string name="please_enable_gps">Please turn on Location Services. </string>
+    <string name="location_not_found">Could not find location.</string>
+    <string name="gps_network_not_enabled">Location Services are not enabled.</string>
+    <string name="open_location_settings">Open Location Settings</string>
+    <string name="Cancel">Later</string>
+    <string name="location_show_dialog">1000</string>
+</resources>
