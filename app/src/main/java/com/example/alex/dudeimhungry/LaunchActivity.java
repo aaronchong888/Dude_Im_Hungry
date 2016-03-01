@@ -98,6 +98,7 @@ public class LaunchActivity extends ActionBarActivity
     public void onConnected(Bundle bundle) {
         //adds the location request
         LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder().addLocationRequest(mLocReq);
+        builder.setAlwaysShow(true);
 
         //make sure the phone is giving us what we asked for
         PendingResult<LocationSettingsResult> result =
@@ -125,11 +126,8 @@ public class LaunchActivity extends ActionBarActivity
                         break;
                     case LocationSettingsStatusCodes.SETTINGS_CHANGE_UNAVAILABLE:
                         // This phone can't give us what we need.
+                        //this case will not fire if builder.setAlwaysShow(true);
                         Log.e("Location Settings", "The user \"never\" wants to give us location info");
-                        try {
-                            status.startResolutionForResult(LaunchActivity.this, REQUEST_CHECK_SETTINGS);
-                        } catch (IntentSender.SendIntentException e) {
-                        }
                         break;
                 }
             }

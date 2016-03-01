@@ -2,18 +2,11 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\jars\classes.jar"
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-24b9fe72488195ac24c87a79860995ee9965f4db.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-9548a18ecf99f59ef0a3f801eff8f0ec1ac671fa.jar" />
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-9083156ae83393401afa685ec00102d5b332dcce.jar" />
     </item>
     <item
         jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\jars\classes.jar"
@@ -23,116 +16,25 @@
         <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-caf38d79cf7af81471b024a2cbee9c6b9003358f.jar" />
     </item>
     <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-ab5e3e7b5c96fc09db316fca1b42aaf17e72cd77.jar" />
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-b79681b50669caad088eafa3ce18fd3185204c1c.jar" />
     </item>
     <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-c3b7ed7f4b7755bda12d7978415d1c532f01b52d.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-de5c6bf9c77e8de01d62c9e6a684c2809963f55d.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-fe7fd049dbf0ca6a8374c08c102dd9d3967e7f62.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-a926768e4f53c387c92fcd4fd44384efab851917.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-2a79c82a1f0524c9ab891f5ab6d55feca2b59792.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\jars\classes.jar"
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-60cd90c839af44a6c82d27c42105b1a32af866a4.jar" />
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-604374b7888a6b159294b0c082917725896891dd.jar" />
     </item>
     <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\jars\classes.jar"
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-3ded312b341b994cce528ccf627a13c7fece84cb.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-c469fe86f38199b5c5c11fd3d593937d41d94dbe.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-9d8abcd96e6f44e28708f2f801448043b69663d1.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-328b9a0a8c59b4dbf37f9da0c31d68ea3583ec87.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-7588906cd1f610495549e326dfa08077f7a8772e.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-00ff634a3868131c8fca5d153cfaf1a1927a02fc.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-9a300b6c0540fc3d8512ee736b1b98c04de9190f.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-7b09c8abc42d23543015fcecbf55643eb5c23a23.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-da663a8d5c9051df2fa5ddb7da082fb10b65e0aa.jar" />
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-cb5d95ca58af51779f2bd8442dec418f35cd1a28.jar" />
     </item>
     <item
         jar="C:\Users\alex\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
@@ -142,11 +44,179 @@
         <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0-6c295934f15519cfb27ed7019883874a4c9c3c00.jar" />
     </item>
     <item
-        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\jars\classes.jar"
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-4ba8f2e3fb12bf6ef90b6cb34bef46a1523025e8.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-de5c6bf9c77e8de01d62c9e6a684c2809963f55d.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-c3b7ed7f4b7755bda12d7978415d1c532f01b52d.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-9c3a3e6b61d44d741ed6e27eceb4b90359196e1b.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-c469fe86f38199b5c5c11fd3d593937d41d94dbe.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-92f245b535f0d742d6a0ca78c48976ca90ecbe18.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-1a951806f64de865b1ee328e223e4525f0b366b4.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-c7d08828723fc3ba3bdd1cc47a1e9a4cb6f8ccb5.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-944da84c582cc178fa46348c174527402c2c1736.jar" />
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-74571fc5a7dd0acee4d83882079c86699abccfa2.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-6e4be2f45ea4d50b5c8a4f0c28bd016240d7565f.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-3ded312b341b994cce528ccf627a13c7fece84cb.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-7588906cd1f610495549e326dfa08077f7a8772e.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-89c0ed3be09823fd29aabc94e8d169b7883d9b98.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-a926768e4f53c387c92fcd4fd44384efab851917.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-c57e7a1cd950d24d771ea1e797f2e0d8ec896187.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-9c913c16286dc450f6ebdd4de20e42a822d5a760.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-60cd90c839af44a6c82d27c42105b1a32af866a4.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-da663a8d5c9051df2fa5ddb7da082fb10b65e0aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-fe7fd049dbf0ca6a8374c08c102dd9d3967e7f62.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-39403d552ef56732b94161fadf3c41a15941f77b.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-7b09c8abc42d23543015fcecbf55643eb5c23a23.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-4ef54c7b4b7127006f88e72a8842d2b705e34a4f.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-ffcc638594e9d3c91968e052473e0166a37a5320.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-00ff634a3868131c8fca5d153cfaf1a1927a02fc.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-53f64e8de49ce15fa36783bd3e68e12abeb543eb.jar" />
     </item>
     <item
         jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\jars\classes.jar"
@@ -156,11 +226,95 @@
         <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-abd5c78b4e62349be35600f4d1edd0c8950ee63b.jar" />
     </item>
     <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-9548a18ecf99f59ef0a3f801eff8f0ec1ac671fa.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-413b599b1e13b335e171987b121917dcf176b08d.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-0669cbdd0e515dcf09a03c06903672faac7ef3aa.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-2a79c82a1f0524c9ab891f5ab6d55feca2b59792.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-944da84c582cc178fa46348c174527402c2c1736.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0-50f5e6114b91f5236ab9e49084502c63d7dff662.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-328b9a0a8c59b4dbf37f9da0c31d68ea3583ec87.jar" />
+    </item>
+    <item
         jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
         <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-399bd1ea6a3473542fdec3413802c7363965c288.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-9d8abcd96e6f44e28708f2f801448043b69663d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\classes-2e96fb16a556391427fa437db5070c79132c760d.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-24b9fe72488195ac24c87a79860995ee9965f4db.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-9a300b6c0540fc3d8512ee736b1b98c04de9190f.jar" />
+    </item>
+    <item
+        jar="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="C:\Users\alex\Workspace\Android\DudeImHungry\app\build\intermediates\pre-dexed\debug\classes-ab5e3e7b5c96fc09db316fca1b42aaf17e72cd77.jar" />
     </item>
 
 </items>
