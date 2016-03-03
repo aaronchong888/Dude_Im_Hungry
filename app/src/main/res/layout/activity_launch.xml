@@ -1,25 +1,192 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
-    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".LaunchActivity"
-    android:id="@+id/rel">
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:background="@drawable/bg" tools:context=".LaunchActivity"
+android:paddingBottom="15dp">
 
-    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+<!--   Parent Layout With Vertical Orientation -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ResultDisplay"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="0dp"
+    android:layout_gravity="bottom|center_horizontal"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="20dp"
+    android:visibility="invisible">
+
+    <!--  1st Child Layout  (Nested In Parent Layout) with Horizontal Orientation -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/textView" />
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:textColor="#000000"
+            android:text="@string/Name"
+            android:nestedScrollingEnabled="false"
+            android:gravity="center|right"
+            android:textSize="20sp" />
 
-    <Button
-        android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/editName"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:ems="10"
+            android:text="@string/defaultName"
+            android:nestedScrollingEnabled="false"
+            android:textColor="#000000"
+            android:gravity="left|center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+    <!--  2nd Child Layout  (Nested In Parent Layout) with Horizontal Orientation -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Launch Map"
-        android:id="@+id/gpsbutton"
-        android:layout_below="@+id/textView"
-        android:layout_toRightOf="@+id/textView"
-        android:layout_toEndOf="@+id/textView"
-        android:layout_marginTop="137dp"
-        android:layout_alignParentEnd="true"
-        android:onClick="onGPSClick" />
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:weightSum="1">
+        <TextView
+            android:id="@+id/textViewRating"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:textColor="#000000"
+            android:text="@string/Rating"
+            android:nestedScrollingEnabled="false"
+            android:gravity="center|right"
+            android:textSize="20sp"
+            android:visibility="visible"
+            android:layout_weight="0.12"
+            android:paddingRight="25dp" />
 
-</RelativeLayout>
+        <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:id="@+id/ratingBar"
+            style="?android:attr/ratingBarStyleSmall"
+            android:numStars="5"
+            android:stepSize="0.1"
+            android:isIndicator="true"
+            android:rating="3"
+            android:layout_gravity="center_horizontal"
+            android:paddingTop="5dp" />
+
+    </LinearLayout>
+    <!--  3rdChild Layout  (Nested In Parent Layout) with Horizontal Orientation -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/textViewDistance"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:textColor="#000000"
+            android:text="@string/Distance"
+            android:nestedScrollingEnabled="false"
+            android:gravity="center|right"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/editDistance"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:ems="10"
+            android:text="@string/defaultDistance"
+            android:nestedScrollingEnabled="false"
+            android:textColor="#000000"
+            android:gravity="left|center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+    <!--  4th Child Layout  (Nested In Parent Layout) with Horizontal Orientation -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:id="@+id/textViewPrice"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="3"
+            android:textColor="#000000"
+            android:text="@string/Price"
+            android:nestedScrollingEnabled="false"
+            android:gravity="center|right"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/editPrice"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:ems="10"
+            android:text="@string/defaultPrice"
+            android:nestedScrollingEnabled="false"
+            android:textColor="#000000"
+            android:gravity="left|center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:layout_marginLeft="20dp" />
+
+    </LinearLayout>
+    <!--  5th Child Layout  (Nested In Parent Layout) with Horizontal Orientation -->
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="20dp"
+        android:layout_marginTop="20dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/getDirection"
+            android:id="@+id/btnDirection"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:onClick="onGPSClick"/>
+
+    </LinearLayout>
+</LinearLayout>
+
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/imageButton"
+    android:layout_gravity="center_horizontal|top"
+    android:adjustViewBounds="true"
+    android:scaleType="fitCenter"
+    android:src="@drawable/btnanimation"
+    android:background="@null"
+    android:layout_marginTop="30dp"
+    android:contentDescription="@string/hungrybtn" />
+
+
+</FrameLayout>
+

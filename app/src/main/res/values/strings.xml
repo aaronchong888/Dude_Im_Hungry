@@ -10,4 +10,13 @@
     <string name="open_location_settings">Open Location Settings</string>
     <string name="Cancel">Later</string>
     <string name="location_show_dialog">1000</string>
+    <string name="Name">Name:</string>
+    <string name="defaultName">Bruin Cafe</string>
+    <string name="Rating">Rating:</string>
+    <string name="Distance">Distance:</string>
+    <string name="defaultDistance">10 km</string>
+    <string name="Price">Price:</string>
+    <string name="defaultPrice">$$</string>
+    <string name="getDirection">Get Direction</string>
+    <string name="hungrybtn">hungrybtn</string>
 </resources>
