@@ -1,5 +1,7 @@
 package com.example.alex.dudeimhungry;
 
+import android.location.Location;
+
 import com.yelp.clientlib.connection.YelpAPI;
 import com.yelp.clientlib.connection.YelpAPIFactory;
 import com.yelp.clientlib.entities.SearchResponse;
@@ -31,8 +33,10 @@ public class YelpSetup {
     }
 
     public void searchByCoordinate() throws IOException {
+        //Location myLoc;
+        // TODO: Update to use live coordinates
         CoordinateOptions coordinate = CoordinateOptions.builder()
-                .latitude(37.786)
+                .latitude(37.789)
                 .longitude(-122.399).build();
 
         // Creating the map to call from
