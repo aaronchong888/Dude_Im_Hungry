@@ -22,6 +22,11 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
+import android.widget.ImageButton;
+import android.widget.LinearLayout;
+import android.widget.RatingBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
@@ -62,6 +67,14 @@ public class LaunchActivity extends ActionBarActivity
     LocationRequest mLocReq;
     GoogleApiClient mGoogleApiClient;
     Location myLoc;
+    // variables used in the UI
+    private LinearLayout resultlayout;
+    private ImageButton hungrybtn;
+    private TextView nameView;
+    private TextView distanceView;
+    private TextView priceView;
+    private Button mapbtn;
+    private RatingBar ratebar;
 
     @Override
     protected void onStart() {
@@ -181,6 +194,27 @@ public class LaunchActivity extends ActionBarActivity
         if(mLocReq == null) {
             createLocationRequest(); //update mLocReq
         }
+
+        // used for UI
+        resultlayout = (LinearLayout)findViewById(R.id.ResultDisplay);
+        hungrybtn = (ImageButton)findViewById(R.id.imageButton);
+        nameView = (TextView)findViewById(R.id.editName);
+        distanceView = (TextView)findViewById(R.id.editDistance);
+        priceView = (TextView)findViewById(R.id.editPrice);
+        mapbtn = (Button)findViewById(R.id.btnDirection);
+        ratebar = (RatingBar)findViewById(R.id.ratingBar);
+        hungrybtn.setOnClickListener(new Button.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                resultlayout.setVisibility(View.VISIBLE);
+                nameView.setText("Feast at Rieber"); // get name from yelp
+                distanceView.setText("5 km"); // get distance from yelp
+                priceView.setText("$"); // get price range from yelp
+                float rating = 0; // get rating from yelp
+                ratebar.setRating(rating);
+            }
+        });
     }
 
     @Override
