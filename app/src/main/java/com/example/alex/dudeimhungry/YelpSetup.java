@@ -33,7 +33,6 @@ public class YelpSetup {
     }
 
     public void searchByCoordinate() throws IOException {
-        //Location myLoc;
         // TODO: Update to use live coordinates
         CoordinateOptions coordinate = CoordinateOptions.builder()
                 .latitude(37.789)
@@ -43,9 +42,21 @@ public class YelpSetup {
         Map<String, String> params = new HashMap<>();
 
         // Search in a 10-mile radius
+        // TODO: Narrow search results? Fast food only?
         params.put("radius-filter", "16000");
-
         Call<SearchResponse> call = yelpAPI.search("Los Angeles", params);
-        Response<SearchResponse> response = call.execute();
+        SearchResponse searchResponse = call.execute().body();
+
+        // Results
+        int totalResults = searchResponse.total();
+        ArrayList<Business> businesses = searchResponse.businesses();
+
+        // Get name, rating, distance, price range
+        // Display one-by-one in order that Yelp returns data to us
+        // TODO: Loop through businesses if user hits "next restaurant" or something
+        String businessName = businesses.get(0).name();
+        Double rating = businesses.get(0).rating(); // Display with stars?
+        // TODO: Calculate distance between two coordinates
+
     }
 }
