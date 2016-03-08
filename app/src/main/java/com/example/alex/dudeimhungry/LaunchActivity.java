@@ -67,8 +67,8 @@ public class LaunchActivity extends ActionBarActivity
     LocationRequest mLocReq;
     GoogleApiClient mGoogleApiClient;
     Location myLoc;
-    double myLat;
-    double myLong;
+    static double myLat;
+    static double myLong;
     // variables used in the UI
     private LinearLayout resultlayout;
     private ImageButton hungrybtn;
@@ -109,11 +109,11 @@ public class LaunchActivity extends ActionBarActivity
     }
 
     // Coordinate retrieval functions
-    public double getUserLat() {
+    public static double getUserLat() {
         return (myLat);
     }
 
-    public double getUserLong(Location myLoc) {
+    public static double getUserLong() {
         return (myLong);
     }
 
