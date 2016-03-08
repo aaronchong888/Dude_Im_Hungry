@@ -13,6 +13,8 @@ import java.lang.*;
 import retrofit.Call;
 import retrofit.Response;
 
+import com.example.alex.dudeimhungry.LaunchActivity;
+
 /**
  * Created by pointatnick on 3/1/16.
  */
@@ -33,9 +35,11 @@ public class YelpSetup {
 
     public void searchByCoordinate() throws IOException {
         // TODO: Update to use live coordinates
+        double myLat = LaunchActivity.getUserLat();
+        double myLong = LaunchActivity.getUserLong();
         CoordinateOptions coordinate = CoordinateOptions.builder()
-                .latitude(37.789)
-                .longitude(-122.399).build();
+                .latitude(myLat)
+                .longitude(myLong).build();
 
         // Creating the map to call from
         Map<String, String> params = new HashMap<>();

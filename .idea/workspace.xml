@@ -7,6 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c66ed1c-aeb4-4e68-b4f1-f024b8b3e9d7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/LaunchActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/LaunchActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/YelpSetup.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/YelpSetup.java" />
     </list>
     <ignored path="Dude_Im_Hungry.iws" />
@@ -35,27 +36,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LaunchActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LaunchActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/LaunchActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-              <folding />
+            <state vertical-scroll-proportion="0.78971964">
+              <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
+              <folding>
+                <element signature="e#3655#3656#0" expanded="true" />
+                <element signature="e#3685#3686#0" expanded="true" />
+                <element signature="e#3727#3728#0" expanded="true" />
+                <element signature="e#3758#3759#0" expanded="true" />
+                <element signature="e#12592#12618#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="YelpSetup.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="YelpSetup.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/YelpSetup.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43956044">
-              <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#2840#2841#0" expanded="true" />
-                <element signature="e#2886#2887#0" expanded="true" />
-                <element signature="e#2935#2936#0" expanded="true" />
-                <element signature="e#2979#2980#0" expanded="true" />
+                <element signature="e#2997#2998#0" expanded="true" />
+                <element signature="e#3043#3044#0" expanded="true" />
+                <element signature="e#3092#3093#0" expanded="true" />
+                <element signature="e#3136#3137#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1738,6 +1745,7 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/YelpSetup.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/LaunchActivity.java" />
       </list>
     </option>
   </component>
@@ -2188,24 +2196,30 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/LaunchActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/YelpSetup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="64" column="27" selection-start-line="64" selection-start-column="27" selection-end-line="64" selection-end-column="27" />
-          <folding />
+          <caret line="37" column="20" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2997#2998#0" expanded="true" />
+            <element signature="e#3043#3044#0" expanded="true" />
+            <element signature="e#3092#3093#0" expanded="true" />
+            <element signature="e#3136#3137#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/YelpSetup.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/LaunchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43956044">
-          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.78971964">
+          <caret line="115" column="18" selection-start-line="115" selection-start-column="18" selection-end-line="115" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2840#2841#0" expanded="true" />
-            <element signature="e#2886#2887#0" expanded="true" />
-            <element signature="e#2935#2936#0" expanded="true" />
-            <element signature="e#2979#2980#0" expanded="true" />
+            <element signature="e#3655#3656#0" expanded="true" />
+            <element signature="e#3685#3686#0" expanded="true" />
+            <element signature="e#3727#3728#0" expanded="true" />
+            <element signature="e#3758#3759#0" expanded="true" />
+            <element signature="e#12592#12618#0" expanded="true" />
           </folding>
         </state>
       </provider>
