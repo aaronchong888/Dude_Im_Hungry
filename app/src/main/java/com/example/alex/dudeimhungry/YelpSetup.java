@@ -50,24 +50,24 @@ public class YelpSetup {
         int totalResults = searchResponse.total();
         ArrayList<Business> businesses = searchResponse.businesses();
 
-        // Get name, rating, distance, price range
+        // Get name, rating, distance
         // Display one-by-one in order that Yelp returns data to us
         // TODO: Loop through businesses if user hits "next restaurant" or something
         String businessName = businesses.get(0).name();
         Double rating = businesses.get(0).rating(); // Display with stars?
+        Double busLat = businesses.get(0).location().coordinate().latitude();
+        Double busLong = businesses.get(0).location().coordinate().longitude();
+        //Double dist = distance(myLat, myLong, busLat, busLong);
     }
 
-    // Calculates distance between two coordinates; K is for kilometers, default is miles
-    public static double distance(double lat1, double lon1, double lat2, double lon2, String unit) {
+    // Calculates distance between two coordinates in miles
+    public static double distance(double lat1, double lon1, double lat2, double lon2) {
         double theta = lon1 - lon2;
         double dist = Math.sin(deg2rad(lat1)) * Math.sin(deg2rad(lat2)) +
                       Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * Math.cos(deg2rad(theta));
         dist = Math.acos(dist);
         dist = rad2deg(dist);
         dist = dist * 60 * 1.1515;
-        if (unit == "K") {
-            dist = dist * 1.609344;
-        }
         return (dist);
     }
 
