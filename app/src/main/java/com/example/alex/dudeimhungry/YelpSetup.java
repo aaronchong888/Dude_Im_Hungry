@@ -1,15 +1,14 @@
 package com.example.alex.dudeimhungry;
 
-import android.location.Location;
-
 import com.yelp.clientlib.connection.YelpAPI;
 import com.yelp.clientlib.connection.YelpAPIFactory;
 import com.yelp.clientlib.entities.SearchResponse;
 import com.yelp.clientlib.entities.options.CoordinateOptions;
+import com.yelp.clientlib.entities.Business;
 
-import java.io.IOException;
-import java.util.Map;
-import java.util.HashMap;
+import java.io.*;
+import java.util.*;
+import java.lang.*;
 
 import retrofit.Call;
 import retrofit.Response;
@@ -56,7 +55,27 @@ public class YelpSetup {
         // TODO: Loop through businesses if user hits "next restaurant" or something
         String businessName = businesses.get(0).name();
         Double rating = businesses.get(0).rating(); // Display with stars?
-        // TODO: Calculate distance between two coordinates
+    }
 
+    // Calculates distance between two coordinates; K is for kilometers, default is miles
+    public static double distance(double lat1, double lon1, double lat2, double lon2, String unit) {
+        double theta = lon1 - lon2;
+        double dist = Math.sin(deg2rad(lat1)) * Math.sin(deg2rad(lat2)) +
+                      Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) * Math.cos(deg2rad(theta));
+        dist = Math.acos(dist);
+        dist = rad2deg(dist);
+        dist = dist * 60 * 1.1515;
+        if (unit == "K") {
+            dist = dist * 1.609344;
+        }
+        return (dist);
+    }
+
+    private static double deg2rad(double deg) {
+        return (deg * Math.PI / 180.0);
+    }
+
+    private static double rad2deg(double rad) {
+        return (rad * 180 / Math.PI);
     }
 }
