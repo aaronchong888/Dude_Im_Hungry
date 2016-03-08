@@ -35,11 +35,11 @@ public class YelpSetup {
 
     public void searchByCoordinate() throws IOException {
         // TODO: Update to use live coordinates
-        double myLat = LaunchActivity.getUserLat();
-        double myLong = LaunchActivity.getUserLong();
+        //double myLat = LaunchActivity.getUserLat(LaunchActivity.myLoc);
+        //double myLong = LaunchActivity.getUserLong(LaunchActivity.myLoc);
         CoordinateOptions coordinate = CoordinateOptions.builder()
-                .latitude(myLat)
-                .longitude(myLong).build();
+                .latitude(LaunchActivity.getUserLat())
+                .longitude(LaunchActivity.getUserLong()).build();
 
         // Creating the map to call from
         Map<String, String> params = new HashMap<>();

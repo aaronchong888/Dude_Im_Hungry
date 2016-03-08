@@ -67,6 +67,8 @@ public class LaunchActivity extends ActionBarActivity
     LocationRequest mLocReq;
     GoogleApiClient mGoogleApiClient;
     Location myLoc;
+    double myLat;
+    double myLong;
     // variables used in the UI
     private LinearLayout resultlayout;
     private ImageButton hungrybtn;
@@ -98,20 +100,20 @@ public class LaunchActivity extends ActionBarActivity
     @Override
     public void onLocationChanged(Location location) {
         myLoc = location;
+        myLat = myLoc.getLatitude();
+        myLong = myLoc.getLongitude();
         mLastUpdateTime = DateFormat.getTimeInstance().format(new Date());
-        Log.i("Location Settings", "(Lat, Long): (" + myLoc.getLatitude() +
-                ", " + myLoc.getLongitude() + ")");
+        Log.i("Location Settings", "(Lat, Long): (" + myLat +
+                ", " + myLong + ")");
         //do whatever we need with the updates location here.
     }
 
     // Coordinate retrieval functions
-    public static double getUserLat(Location myLoc) {
-        double myLat = myLoc.getLatitude();
+    public double getUserLat() {
         return (myLat);
     }
 
-    public static double getUserLong(Location myLoc) {
-        double myLong = myLoc.getLongitude();
+    public double getUserLong(Location myLoc) {
         return (myLong);
     }
 
