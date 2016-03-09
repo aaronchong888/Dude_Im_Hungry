@@ -13,6 +13,8 @@ import java.lang.*;
 
 import retrofit.Call;
 import retrofit.Response;
+import retrofit.Callback;
+import retrofit.Retrofit;
 
 import com.example.alex.dudeimhungry.LaunchActivity;
 
@@ -62,14 +64,21 @@ public class YelpSetup {
         // Search in a 10-mile radius
         params.put("radius-filter", "16000");
         Call<SearchResponse> call = yelpAPI.search("Los Angeles", params);
-        try {
-            SearchResponse searchResponse = call.execute().body();
-            // Results
-            totalResults = searchResponse.total();
-            businesses = searchResponse.businesses();
-        } catch (IOException e) {
-            System.err.println("Caught IOException: " + e.getMessage());
-        }
+        Callback<SearchResponse> callback = new Callback<SearchResponse>() {
+            @Override
+            public void onResponse(Response<SearchResponse> response, Retrofit retrofit) {
+                SearchResponse searchResponse = response.body();
+                int busNum = LaunchActivity.hitCount;
+                totalResults = searchResponse.total();
+                businesses = searchResponse.businesses();
+                businessInfo(busNum);
+            }
+            @Override
+            public void onFailure(Throwable t) {
+                System.err.println("HTTP error: " + t.getMessage());
+            }
+        };
+        call.enqueue(callback);
     }
 
     public static void businessInfo(int busNum) {
