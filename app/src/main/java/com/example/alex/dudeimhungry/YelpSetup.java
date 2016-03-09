@@ -1,5 +1,7 @@
 package com.example.alex.dudeimhungry;
 
+import android.location.Location;
+
 import com.yelp.clientlib.connection.YelpAPI;
 import com.yelp.clientlib.connection.YelpAPIFactory;
 import com.yelp.clientlib.entities.SearchResponse;
@@ -29,14 +31,14 @@ public class YelpSetup {
     String TOKEN_SECRET = "fW5zIji0LEMutS4JE2hI7AuMTXg";
 
     // Restaurant field to pass to LaunchActivity
-    static String businessName;
-    static double rating;
-    static double busDist;
-    static double busLat;
-    static double busLong;
+    static String businessName = "";
+    static double rating = 0.0;
+    static double busDist = 0.0;
+    static double busLat = 0.0;
+    static double busLong = 0.0;
     static double myLat;
     static double myLong;
-    static int totalResults;
+    static int totalResults = 0;
 
     static ArrayList<Business> businesses;
     private static YelpAPI yelpAPI;
@@ -55,14 +57,10 @@ public class YelpSetup {
     public void searchByCoordinate() {
         myLat = LaunchActivity.getUserLat();
         myLong = LaunchActivity.getUserLong();
-        CoordinateOptions coordinate = CoordinateOptions.builder()
-                .latitude(LaunchActivity.getUserLat())
-                .longitude(LaunchActivity.getUserLong()).build();
-
         // Creating the map to call from
         Map<String, String> params = new HashMap<>();
         // Search in a 5-mile radius
-        params.put("radius-filter", "8000");
+        params.put("radius-filter", "3000");
         Call<SearchResponse> call = yelpAPI.search("Los Angeles", params);
         Callback<SearchResponse> callback = new Callback<SearchResponse>() {
             @Override
@@ -94,7 +92,7 @@ public class YelpSetup {
         busDist = distance(myLat, myLong, busLat, busLong);
     }
 
-    public double getBusLog() {
+    public double getBusLong() {
         return busLong;
     }
     public double getBusLat() {

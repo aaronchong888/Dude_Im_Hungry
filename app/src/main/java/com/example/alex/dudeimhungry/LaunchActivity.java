@@ -62,7 +62,7 @@ public class LaunchActivity extends ActionBarActivity
     boolean mRequestingLocationUpdates;
     LocationRequest mLocReq;
     GoogleApiClient mGoogleApiClient;
-    Location myLoc;
+    Location myLoc = new Location("");
     static double myLat;
     static double myLong;
     // variables used in the UI
@@ -159,6 +159,8 @@ public class LaunchActivity extends ActionBarActivity
                 }
             }
         });
+        myLoc.setLatitude(34.0722);
+        myLoc.setLongitude(118.4441);
         yelp.searchByCoordinate(); //now that we have gps coords we can search
     }
 
@@ -221,9 +223,9 @@ public class LaunchActivity extends ActionBarActivity
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                if (hitCount == 0) {
+                /*if (hitCount == 0) {
                     yelp.searchByCoordinate();
-                }
+                }*/
                 yelp.businessInfo(hitCount);
                 cickView.setVisibility(View.INVISIBLE);
                 resultlayout.setVisibility(View.VISIBLE);
