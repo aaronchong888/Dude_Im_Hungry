@@ -135,6 +135,7 @@ public class LaunchActivity extends ActionBarActivity
                 LocationServices.SettingsApi.checkLocationSettings(mGoogleApiClient,
                         builder.build());
 
+        builder.setAlwaysShow(true);
         result.setResultCallback(new ResultCallback<LocationSettingsResult>() {
             @Override
             public void onResult(LocationSettingsResult result) {
@@ -341,9 +342,18 @@ public class LaunchActivity extends ActionBarActivity
             Toast.makeText(this, R.string.please_enable_gps, Toast.LENGTH_LONG).show();
             return;
         }
+        Uri gmmIntentUri = Uri.parse("google.navigation:q=40.7127837,-74.00594130000002");
+        //Uri gmmIntentUri = String.format(Locale.ENGLISH, "google.navigation:q=%f,%f",);
+        Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
+        intent.setPackage("com.google.android.apps.maps");
+        //startActivity(intent);
         //start the food map
-        String uri = String.format(Locale.ENGLISH, "geo:%f,%f", myLoc.getLatitude(), myLoc.getLongitude());
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
+
+        //Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
+        //Uri.parse("http://maps.google.com/maps?saddr=20.344,34.34&daddr=20.5666,45.345"));
+
+        //String uri = String.format(Locale.ENGLISH, "geo:%f,%f", myLoc.getLatitude(), myLoc.getLongitude());
+        //Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
         //make sure something on the phone can open a google map
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
