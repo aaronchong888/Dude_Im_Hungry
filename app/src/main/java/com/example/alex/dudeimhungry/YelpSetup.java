@@ -79,10 +79,6 @@ public class YelpSetup {
             }
         };
         call.enqueue(callback);
-        if (totalResults < 20) {
-            params.put("radius-filter", "16000");
-            call.enqueue(callback);
-        }
     }
 
     public static void businessInfo(int busNum) {
