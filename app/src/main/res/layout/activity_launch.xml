@@ -187,6 +187,15 @@ android:paddingBottom="15dp">
     android:layout_marginTop="30dp"
     android:contentDescription="@string/hungrybtn" />
 
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageClick"
+        android:layout_gravity="center"
+        android:src="@drawable/click1"
+        android:paddingTop="120dp"
+        android:visibility="visible"
+        android:contentDescription="@string/clickme" />
 
 </FrameLayout>
 

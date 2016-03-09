@@ -24,6 +24,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
@@ -76,9 +77,10 @@ public class LaunchActivity extends ActionBarActivity
     private ImageButton hungrybtn;
     private TextView nameView;
     private TextView distanceView;
-    private TextView priceView;
+    //private TextView priceView;
     private Button mapbtn;
     private RatingBar ratebar;
+    private ImageView cickView;
     static int hitCount = 0;
 
     @Override
@@ -216,9 +218,10 @@ public class LaunchActivity extends ActionBarActivity
         hungrybtn = (ImageButton)findViewById(R.id.imageButton);
         nameView = (TextView)findViewById(R.id.editName);
         distanceView = (TextView)findViewById(R.id.editDistance);
-        priceView = (TextView)findViewById(R.id.editPrice);
+        //priceView = (TextView)findViewById(R.id.editPrice);
         mapbtn = (Button)findViewById(R.id.btnDirection);
         ratebar = (RatingBar)findViewById(R.id.ratingBar);
+        cickView = (ImageView)findViewById(R.id.imageClick);
         hungrybtn.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -226,10 +229,11 @@ public class LaunchActivity extends ActionBarActivity
                 if (hitCount > YelpSetup.totalResults) {
                     // display an error saying we've seen all the restaurants
                 }
+                cickView.setVisibility(View.INVISIBLE);
                 resultlayout.setVisibility(View.VISIBLE);
                 nameView.setText(YelpSetup.businessName); // get name from yelp
                 distanceView.setText(Double.toString(YelpSetup.busDist)); // get distance from yelp
-                priceView.setText("$"); // get price range from yelp
+                //priceView.setText("$"); // get price range from yelp
                 float rating = (float) YelpSetup.rating; // get rating from yelp
                 ratebar.setRating(rating);
                 hitCount++;

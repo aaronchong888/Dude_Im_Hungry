@@ -5,9 +5,4 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="FullscreenTheme" parent="@style/Widget.AppCompat.Light.ActionBar">
-        <item name="android:windowContentOverlay">@null</item>
-        <item name="android:windowBackground">@null</item>
-    </style>
-
 </resources>

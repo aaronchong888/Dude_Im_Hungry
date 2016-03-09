@@ -19,4 +19,5 @@
     <string name="defaultPrice">$$</string>
     <string name="getDirection">Get Direction</string>
     <string name="hungrybtn">hungrybtn</string>
+    <string name="clickme">ClickMe</string>
 </resources>
