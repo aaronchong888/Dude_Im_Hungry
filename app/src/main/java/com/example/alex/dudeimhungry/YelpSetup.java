@@ -61,8 +61,8 @@ public class YelpSetup {
 
         // Creating the map to call from
         Map<String, String> params = new HashMap<>();
-        // Search in a 10-mile radius
-        params.put("radius-filter", "16000");
+        // Search in a 5-mile radius
+        params.put("radius-filter", "8000");
         Call<SearchResponse> call = yelpAPI.search("Los Angeles", params);
         Callback<SearchResponse> callback = new Callback<SearchResponse>() {
             @Override

@@ -2,249 +2,249 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-7.0.0_ffcc638594e9d3c91968e052473e0166a37a5320.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-7.0.0_4ba8f2e3fb12bf6ef90b6cb34bef46a1523025e8.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.0.0_92f245b535f0d742d6a0ca78c48976ca90ecbe18.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\commons-codec\commons-codec\1.3\fd32786786e2adb664d5ecc965da47629dca14ba\commons-codec-1.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\commons-codec-1.3_ce56b271714964ee5bb66b8ecd519f209a33e835.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-7.0.0_53f64e8de49ce15fa36783bd3e68e12abeb543eb.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-databind\2.4.3\feff63199be7b8f495c2f3e2096dcb6bd5e5b0b3\jackson-databind-2.4.3.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="feff63199be7b8f495c2f3e2096dcb6bd5e5b0b3">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\jackson-databind-2.4.3_2c23fc565ed30c0bc6f6d7e0e9f21f4c05381289.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-7.0.0_604374b7888a6b159294b0c082917725896891dd.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-7.0.0_74571fc5a7dd0acee4d83882079c86699abccfa2.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-22.0.0_c7d08828723fc3ba3bdd1cc47a1e9a4cb6f8ccb5.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-7.0.0_413b599b1e13b335e171987b121917dcf176b08d.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.0.0_1a951806f64de865b1ee328e223e4525f0b366b4.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\oauth.signpost\signpost-core\1.2.1.2\bf95955dcf3d5a78c201e49b0c336787ea73f161\signpost-core-1.2.1.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\signpost-core-1.2.1.2_f4ca557c8f106ffe408a36ad1e9d4c063767be5b.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\converter-jackson\2.0.0-beta2\4548c670afd8930f183c0aa1124c889464f8a0ea\converter-jackson-2.0.0-beta2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4548c670afd8930f183c0aa1124c889464f8a0ea">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\converter-jackson-2.0.0-beta2_d6c1b96269c0f42716772479a9ef396893117976.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-22.0.0_9083156ae83393401afa685ec00102d5b332dcce.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-7.0.0_9c3a3e6b61d44d741ed6e27eceb4b90359196e1b.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-7.0.0_b79681b50669caad088eafa3ce18fd3185204c1c.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\se.akerfeldt\okhttp-signpost\1.0.0\d28b2bc7927a8cf44da15671ce856f756e5428ce\okhttp-signpost-1.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d28b2bc7927a8cf44da15671ce856f756e5428ce">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\okhttp-signpost-1.0.0_1b748b8d2f2da978fd3223e0809a3e9fdb1c02bb.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp\okhttp\2.7.0\1477ec5caf8319ab4b51eb43553cd66aa86fdea5\okhttp-2.7.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="1477ec5caf8319ab4b51eb43553cd66aa86fdea5">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\okhttp-2.7.0_68b97012fb71736d3fab26a381ef4fb85a299616.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-annotations\2.4.0\d6a66c7a5f01cf500377bd669507a08cfeba882a\jackson-annotations-2.4.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d6a66c7a5f01cf500377bd669507a08cfeba882a">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\jackson-annotations-2.4.0_412872f43a34b97ea0a69dd4efc14b1d99edbf76.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-7.0.0_6e4be2f45ea4d50b5c8a4f0c28bd016240d7565f.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\com.fasterxml.jackson.core\jackson-core\2.4.3\4cb3dbb0c2f75b51aa7543c53252989785a0c609\jackson-core-2.4.3.jar"
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.3/4cb3dbb0c2f75b51aa7543c53252989785a0c609/jackson-core-2.4.3.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="4cb3dbb0c2f75b51aa7543c53252989785a0c609">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\jackson-core-2.4.3_f04a4a0a0030f04714775fa08b303885df9ca5ab.jar" />
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/jackson-core-2.4.3_51fbf35abb2186f6b9263337f301cae44741ce13.jar" />
     </item>
     <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.0.0\jars\classes.jar"
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.3/fd32786786e2adb664d5ecc965da47629dca14ba/commons-codec-1.3.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-7.0.0_0669cbdd0e515dcf09a03c06903672faac7ef3aa.jar" />
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/commons-codec-1.3_1e39ddffb69e8dccb49b07ce638d040a2229b8a8.jar" />
     </item>
     <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.0.0\jars\classes.jar"
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-7.0.0_2e96fb16a556391427fa437db5070c79132c760d.jar" />
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-7.0.0_d4a20c2e29151107f0ca591151c0e7ce1d756da9.jar" />
     </item>
     <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-7.0.0_4ef54c7b4b7127006f88e72a8842d2b705e34a4f.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-7.0.0_89c0ed3be09823fd29aabc94e8d169b7883d9b98.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-7.0.0_c57e7a1cd950d24d771ea1e797f2e0d8ec896187.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.0.0\jars\libs\internal_impl-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\internal_impl-22.0.0_50f5e6114b91f5236ab9e49084502c63d7dff662.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\22.0.0\support-annotations-22.0.0.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\support-annotations-22.0.0_6c295934f15519cfb27ed7019883874a4c9c3c00.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-7.0.0_cb5d95ca58af51779f2bd8442dec418f35cd1a28.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit\retrofit\2.0.0-beta2\880d9e0997b2d1bfc98e0d121ced33ee5d04aac4\retrofit-2.0.0-beta2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\retrofit-2.0.0-beta2_cfedc79680346ba5046c204c247442c72820cd18.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.0.0\jars\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-7.0.0_39403d552ef56732b94161fadf3c41a15941f77b.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="98476622f10715998eacf9240d6b479f12c66143">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\okio-1.6.0_2d77644a6b22f1c58e22e3948605aa8df75a3d08.jar" />
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/okio-1.6.0_9c472b164f5d4cd0540c611f97499054632e0953.jar" />
     </item>
     <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\com.google.auto.value\auto-value\1.1\f6951c141ea3e89c0f8b01da16834880a1ebf162\auto-value-1.1.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="f6951c141ea3e89c0f8b01da16834880a1ebf162">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\auto-value-1.1_6b73c40edb9d02fe6553195d5e9575d09c523bd6.jar" />
-    </item>
-    <item
-        jar="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.0.0\jars\classes.jar"
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appstate-7.0.0_9c913c16286dc450f6ebdd4de20e42a822d5a760.jar" />
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appstate-7.0.0_5f7fc6ceb797e9fa7229323f8347bf128e39fb36.jar" />
     </item>
     <item
-        jar="C:\Users\alex\.gradle\caches\modules-2\files-2.1\com.yelp.clientlib\yelp-android\1.0.0\2f95ba7e129b83be3c86b1526e69dddea193cec5\yelp-android-1.0.0.jar"
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-drive-7.0.0_c43568151c286ba1d905e34b20653ed63089b663.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/internal_impl-22.0.0_0c902e81c9a44d501dc2ebef6a01022d0cdf2c9a.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-nearby-7.0.0_1e6c44e9d2c1b5d40d7c2d2d4604c15af0f1036d.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/d6a66c7a5f01cf500377bd669507a08cfeba882a/jackson-annotations-2.4.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d6a66c7a5f01cf500377bd669507a08cfeba882a">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/jackson-annotations-2.4.0_07099a62ef416656568464720439cb2e9e511890.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-games-7.0.0_9ddbfbba38820bf001b8d93ed259803ded81ec63.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-location-7.0.0_75d8043075100d61ec7585398b139c3b8a5fd419.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-22.0.0_835f8924ce9c1e3dff36d6fcb94f5692c2f8be0e.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-22.0.0_cc230efabb9358f0ec11cd4be519da6dd5d12bba.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-jackson/2.0.0-beta2/4548c670afd8930f183c0aa1124c889464f8a0ea/converter-jackson-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4548c670afd8930f183c0aa1124c889464f8a0ea">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/converter-jackson-2.0.0-beta2_619eb186851fae132b44ad6628a77db6ece958a1.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-identity-7.0.0_bd6a06a1736c002f471bc589a29d947a7b63275c.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gcm-7.0.0_4914377ad77c17dbc2cf70a3a9767d7db51b7dd2.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value/1.1/f6951c141ea3e89c0f8b01da16834880a1ebf162/auto-value-1.1.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f6951c141ea3e89c0f8b01da16834880a1ebf162">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/auto-value-1.1_fa4ed824ed199f62ac60698d7d52affadaeb408f.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-safetynet-7.0.0_2ee47822d934719ddc408bcaf90bd047a6099dc1.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.3/feff63199be7b8f495c2f3e2096dcb6bd5e5b0b3/jackson-databind-2.4.3.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="feff63199be7b8f495c2f3e2096dcb6bd5e5b0b3">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/jackson-databind-2.4.3_ca821b8fe278a4c6113059e2c6a4134f7096f7ca.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-analytics-7.0.0_1910db1e4c3895d547df78eb2467828005a9f9c8.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-panorama-7.0.0_df66adb203a4a6e885a037aa0d7a59ac1697f2fd.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-fitness-7.0.0_cee3684971994c8fb2783522f072742aa92f5ecd.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-plus-7.0.0_3fe8704d58f4fe1f361db46abc299efd95194869.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta2/880d9e0997b2d1bfc98e0d121ced33ee5d04aac4/retrofit-2.0.0-beta2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/retrofit-2.0.0-beta2_8b4e029bcfbb2efa0284aee8ff3fd1bed9f7320f.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/support-annotations-22.0.0_ace3c5f93d2e856d5267b009f17eeeee4f5f7f19.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-7.0.0_a70010d56f65535912906ed012a61c18ad37be51.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appindexing-7.0.0_fa70cd17fbe0572bbdcdbc4d5b17ec646347c1ef.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wearable-7.0.0_e4f28cae01494ceed82f7b334285d09c5d6d08d9.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/oauth.signpost/signpost-core/1.2.1.2/bf95955dcf3d5a78c201e49b0c336787ea73f161/signpost-core-1.2.1.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/signpost-core-1.2.1.2_fa1bc3dd2f783b4f3736198e9fb4e69cc80f8f8d.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-cast-7.0.0_871643c077ce96a48fa1024d35807ccbd77fde77.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/se.akerfeldt/okhttp-signpost/1.0.0/d28b2bc7927a8cf44da15671ce856f756e5428ce/okhttp-signpost-1.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d28b2bc7927a8cf44da15671ce856f756e5428ce">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/okhttp-signpost-1.0.0_50f90ae1781192aa83349251731da2fba2a7e249.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/com.yelp.clientlib/yelp-android/1.0.0/2f95ba7e129b83be3c86b1526e69dddea193cec5/yelp-android-1.0.0.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="2f95ba7e129b83be3c86b1526e69dddea193cec5">
-        <dex dex="C:\Users\alex\Workspace\Android\Dude_Im_Hungry\app\build\intermediates\pre-dexed\debug\yelp-android-1.0.0_f70f6b10422ee99c85b74fc24cbb19db9412857f.jar" />
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/yelp-android-1.0.0_750b28c411e61506d662b7c5f826cc80f6f478d8.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-7.0.0_029e158236836c5ee34b67f9a4f3a7d67c99e491.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-wallet-7.0.0_3fc83f2b668bd22c67d6c07fd31cd36c6b6d4ff3.jar" />
+    </item>
+    <item
+        jar="/Users/hy0n/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.0/1477ec5caf8319ab4b51eb43553cd66aa86fdea5/okhttp-2.7.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1477ec5caf8319ab4b51eb43553cd66aa86fdea5">
+        <dex dex="/Users/hy0n/Desktop/Dude_Im_Hungry/app/build/intermediates/pre-dexed/debug/okhttp-2.7.0_36232aec5c63c1d9c1cdc1a82005949ccee330c8.jar" />
     </item>
 
 </items>
