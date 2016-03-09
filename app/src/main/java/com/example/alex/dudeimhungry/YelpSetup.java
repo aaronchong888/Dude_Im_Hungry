@@ -35,8 +35,8 @@ public class YelpSetup {
 
     public void searchByCoordinate() throws IOException {
         // TODO: Update to use live coordinates
-        //double myLat = LaunchActivity.getUserLat(LaunchActivity.myLoc);
-        //double myLong = LaunchActivity.getUserLong(LaunchActivity.myLoc);
+        double myLat = LaunchActivity.getUserLat();
+        double myLong = LaunchActivity.getUserLong();
         CoordinateOptions coordinate = CoordinateOptions.builder()
                 .latitude(LaunchActivity.getUserLat())
                 .longitude(LaunchActivity.getUserLong()).build();
@@ -61,7 +61,7 @@ public class YelpSetup {
         Double rating = businesses.get(0).rating(); // Display with stars?
         Double busLat = businesses.get(0).location().coordinate().latitude();
         Double busLong = businesses.get(0).location().coordinate().longitude();
-        //Double dist = distance(myLat, myLong, busLat, busLong);
+        Double dist = distance(myLat, myLong, busLat, busLong);
     }
 
     // Calculates distance between two coordinates in miles
