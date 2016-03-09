@@ -7,6 +7,7 @@ import com.yelp.clientlib.entities.options.CoordinateOptions;
 import com.yelp.clientlib.entities.Business;
 
 import java.io.*;
+import java.lang.reflect.Array;
 import java.util.*;
 import java.lang.*;
 
@@ -28,8 +29,14 @@ public class YelpSetup {
     // Restaurant field to pass to LaunchActivity
     static String businessName;
     static double rating;
-    static double dist;
+    static double busDist;
+    static double busLat;
+    static double busLong;
+    static double myLat;
+    static double myLong;
+    static int totalResults;
 
+    ArrayList<Business> businesses;
     private YelpAPI yelpAPI;
 
     public void setUp() {
@@ -39,9 +46,8 @@ public class YelpSetup {
     }
 
     public void searchByCoordinate() throws IOException {
-        // TODO: Update to use live coordinates
-        double myLat = LaunchActivity.getUserLat();
-        double myLong = LaunchActivity.getUserLong();
+        myLat = LaunchActivity.getUserLat();
+        myLong = LaunchActivity.getUserLong();
         CoordinateOptions coordinate = CoordinateOptions.builder()
                 .latitude(LaunchActivity.getUserLat())
                 .longitude(LaunchActivity.getUserLong()).build();
@@ -50,23 +56,25 @@ public class YelpSetup {
         Map<String, String> params = new HashMap<>();
 
         // Search in a 10-mile radius
-        // TODO: Narrow search results? Fast food only?
         params.put("radius-filter", "16000");
         Call<SearchResponse> call = yelpAPI.search("Los Angeles", params);
         SearchResponse searchResponse = call.execute().body();
 
         // Results
-        int totalResults = searchResponse.total();
-        ArrayList<Business> businesses = searchResponse.businesses();
+        totalResults = searchResponse.total();
+        businesses = searchResponse.businesses();
 
         // Get name, rating, distance
         // Display one-by-one in order that Yelp returns data to us
         // TODO: Loop through businesses if user hits "next restaurant" or something
-        businessName = businesses.get(0).name();
-        rating = businesses.get(0).rating(); // Display with stars?
-        double busLat = businesses.get(0).location().coordinate().latitude();
-        double busLong = businesses.get(0).location().coordinate().longitude();
-        dist = distance(myLat, myLong, busLat, busLong);
+    }
+
+    public void businessInfo(int busNum) {
+        businessName = businesses.get(busNum).name();
+        rating = businesses.get(busNum).rating();
+        busLat = businesses.get(busNum).location().coordinate().latitude();
+        busLong = businesses.get(busNum).location().coordinate().longitude();
+        busDist = distance(myLat, myLong, busLat, busLong);
     }
 
     // Calculates distance between two coordinates in miles

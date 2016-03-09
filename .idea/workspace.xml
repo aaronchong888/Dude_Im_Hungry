@@ -9,7 +9,6 @@
     <list default="true" id="1c66ed1c-aeb4-4e68-b4f1-f024b8b3e9d7" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/LaunchActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/LaunchActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/YelpSetup.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/YelpSetup.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Dude_Im_Hungry.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,12 +39,12 @@
       <file leaf-file-name="LaunchActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/LaunchActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.22663552">
-              <caret line="226" column="54" selection-start-line="226" selection-start-column="54" selection-end-line="226" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.50934577">
+              <caret line="226" column="77" selection-start-line="226" selection-start-column="77" selection-end-line="226" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#4411#6151#0" expanded="true" />
-                <element signature="e#6150#6151#0" expanded="true" />
+                <element signature="e#4440#6180#0" expanded="true" />
+                <element signature="e#6179#6180#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/YelpSetup.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+              <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2150,8 +2149,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4411#6151#0" expanded="true" />
-            <element signature="e#6150#6151#0" expanded="true" />
+            <element signature="e#4440#6180#0" expanded="true" />
+            <element signature="e#6179#6180#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2218,7 +2217,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/YelpSetup.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
+          <caret line="72" column="53" selection-start-line="72" selection-start-column="53" selection-end-line="72" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2227,12 +2226,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/example/alex/dudeimhungry/LaunchActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22663552">
-          <caret line="226" column="54" selection-start-line="226" selection-start-column="54" selection-end-line="226" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.50934577">
+          <caret line="226" column="77" selection-start-line="226" selection-start-column="77" selection-end-line="226" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#4411#6151#0" expanded="true" />
-            <element signature="e#6150#6151#0" expanded="true" />
+            <element signature="e#4440#6180#0" expanded="true" />
+            <element signature="e#6179#6180#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -79,6 +79,7 @@ public class LaunchActivity extends ActionBarActivity
     private TextView priceView;
     private Button mapbtn;
     private RatingBar ratebar;
+    static int hitCount = 0;
 
     @Override
     protected void onStart() {
@@ -222,12 +223,16 @@ public class LaunchActivity extends ActionBarActivity
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
+                if (hitCount > YelpSetup.totalResults) {
+                    // display an error saying we've seen all the restaurants
+                }
                 resultlayout.setVisibility(View.VISIBLE);
                 nameView.setText(YelpSetup.businessName); // get name from yelp
-                distanceView.setText(YelpSetup.dist); // get distance from yelp
+                distanceView.setText(Double.toString(YelpSetup.busDist)); // get distance from yelp
                 priceView.setText("$"); // get price range from yelp
                 float rating = (float) YelpSetup.rating; // get rating from yelp
                 ratebar.setRating(rating);
+                hitCount++;
             }
         });
     }
