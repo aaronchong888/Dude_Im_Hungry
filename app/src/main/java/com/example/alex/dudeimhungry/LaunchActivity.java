@@ -227,10 +227,10 @@ public class LaunchActivity extends ActionBarActivity
                 yelp.businessInfo(hitCount);
                 cickView.setVisibility(View.INVISIBLE);
                 resultlayout.setVisibility(View.VISIBLE);
-                nameView.setText(yelp.businessName); // get name from yelp
-                distanceView.setText(String.format ("%.1f", yelp.busDist) + " miles"); // get distance from yelp
-                //priceView.setText("$"); // get price range from yelp
-                float rating = (float) yelp.rating; // get rating from yelp
+                nameView.setText(yelp.businessName);
+                distanceView.setText(String.format ("%.1f", yelp.busDist));
+                distanceView.append(" miles");
+                float rating = (float) yelp.rating;
                 ratebar.setRating(rating);
                 hitCount++;
             }
