@@ -108,11 +108,11 @@ public class LaunchActivity extends ActionBarActivity
 
     // Coordinate retrieval functions
     public static double getUserLat() {
-        return (myLat);
+        return (34.0722);
     }
 
     public static double getUserLong() {
-        return (myLong);
+        return (-118.4441);
     }
 
     /*
@@ -159,8 +159,6 @@ public class LaunchActivity extends ActionBarActivity
                 }
             }
         });
-        myLoc.setLatitude(34.0722);
-        myLoc.setLongitude(118.4441);
         yelp.searchByCoordinate(); //now that we have gps coords we can search
     }
 
@@ -222,10 +220,6 @@ public class LaunchActivity extends ActionBarActivity
         hungrybtn.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
-                /*if (hitCount == 0) {
-                    yelp.searchByCoordinate();
-                }*/
                 yelp.businessInfo(hitCount);
                 cickView.setVisibility(View.INVISIBLE);
                 resultlayout.setVisibility(View.VISIBLE);
