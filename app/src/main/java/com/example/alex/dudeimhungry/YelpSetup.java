@@ -36,8 +36,8 @@ public class YelpSetup {
     static double myLong;
     static int totalResults;
 
-    ArrayList<Business> businesses;
-    private YelpAPI yelpAPI;
+    static ArrayList<Business> businesses;
+    private static YelpAPI yelpAPI;
 
     public void setUp() {
         // Creating the API object from YelpAPI library
@@ -45,7 +45,7 @@ public class YelpSetup {
         yelpAPI = apiFactory.createAPI();
     }
 
-    public void searchByCoordinate() throws IOException {
+    public static void searchByCoordinate() {
         myLat = LaunchActivity.getUserLat();
         myLong = LaunchActivity.getUserLong();
         CoordinateOptions coordinate = CoordinateOptions.builder()
@@ -54,22 +54,22 @@ public class YelpSetup {
 
         // Creating the map to call from
         Map<String, String> params = new HashMap<>();
-
         // Search in a 10-mile radius
         params.put("radius-filter", "16000");
         Call<SearchResponse> call = yelpAPI.search("Los Angeles", params);
-        SearchResponse searchResponse = call.execute().body();
-
-        // Results
-        totalResults = searchResponse.total();
-        businesses = searchResponse.businesses();
-
-        // Get name, rating, distance
-        // Display one-by-one in order that Yelp returns data to us
-        // TODO: Loop through businesses if user hits "next restaurant" or something
+        try {
+            SearchResponse searchResponse = call.execute().body();
+            // Results
+            totalResults = searchResponse.total();
+            businesses = searchResponse.businesses();
+        } catch (IOException e) {
+            System.err.println("Caught IOException: " + e.getMessage());
+        }
     }
 
-    public void businessInfo(int busNum) {
+    public static void businessInfo(int busNum) {
+        // Get name, rating, distance
+        // Display one-by-one in order that Yelp returns data to us
         businessName = businesses.get(busNum).name();
         rating = businesses.get(busNum).rating();
         busLat = businesses.get(busNum).location().coordinate().latitude();

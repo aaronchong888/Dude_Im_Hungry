@@ -219,9 +219,10 @@ public class LaunchActivity extends ActionBarActivity
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                if (hitCount > YelpSetup.totalResults) {
-                    // display an error saying we've seen all the restaurants
+                if (hitCount == 0) {
+                    YelpSetup.searchByCoordinate();
                 }
+                YelpSetup.businessInfo(hitCount);
                 cickView.setVisibility(View.INVISIBLE);
                 resultlayout.setVisibility(View.VISIBLE);
                 nameView.setText(YelpSetup.businessName); // get name from yelp
