@@ -220,7 +220,11 @@ public class LaunchActivity extends ActionBarActivity
         hungrybtn.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                yelp.businessInfo(hitCount);
+                try {
+                    yelp.businessInfo(hitCount);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
                 cickView.setVisibility(View.INVISIBLE);
                 resultlayout.setVisibility(View.VISIBLE);
                 nameView.setText(yelp.businessName);

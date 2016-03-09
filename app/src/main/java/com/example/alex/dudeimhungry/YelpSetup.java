@@ -69,7 +69,11 @@ public class YelpSetup {
                 int busNum = LaunchActivity.hitCount;
                 totalResults = searchResponse.total();
                 businesses = searchResponse.businesses();
-                businessInfo(busNum);
+                try {
+                    businessInfo(busNum);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
             }
             @Override
             public void onFailure(Throwable t) {
@@ -79,11 +83,12 @@ public class YelpSetup {
         call.enqueue(callback);
     }
 
-    public static void businessInfo(int busNum) {
+    public static void businessInfo(int busNum) throws Exception
+    {
         // Get name, rating, distance
         // Display one-by-one in order that Yelp returns data to us
-        if(busNum > totalResults) {
-            busNum %= totalResults; //quick wrap around function
+        if(busNum >= 20) { //TODO: Dont hardcode this. init total results
+            busNum = busNum % 20; //quick wrap around function
         }
         businessName = businesses.get(busNum).name();
         rating = businesses.get(busNum).rating();
