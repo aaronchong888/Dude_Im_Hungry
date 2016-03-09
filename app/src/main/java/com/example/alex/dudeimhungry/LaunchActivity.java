@@ -1,21 +1,14 @@
 package com.example.alex.dudeimhungry;
 
 import android.app.Activity;
-import android.app.AlertDialog;
-import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentSender;
-import android.location.Criteria;
 import android.location.Location;
 
 import com.google.android.gms.location.LocationListener;
-import android.location.LocationManager;
 import android.net.Uri;
-import android.os.AsyncTask;
 import android.os.Bundle;
-import android.os.RemoteException;
-import android.provider.Settings;
+
 
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
@@ -34,7 +27,6 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.ResultCallback;
-import com.google.android.gms.common.api.Result;
 
 import com.google.android.gms.common.api.Status;
 import com.google.android.gms.location.LocationRequest;
@@ -342,19 +334,13 @@ public class LaunchActivity extends ActionBarActivity
             Toast.makeText(this, R.string.please_enable_gps, Toast.LENGTH_LONG).show();
             return;
         }
-        Uri gmmIntentUri = Uri.parse("google.navigation:q=40.7127837,-74.00594130000002");
-        //Uri gmmIntentUri = String.format(Locale.ENGLISH, "google.navigation:q=%f,%f",);
-        Intent intent = new Intent(Intent.ACTION_VIEW, gmmIntentUri);
-        intent.setPackage("com.google.android.apps.maps");
-        //startActivity(intent);
-        //start the food map
+        //Uri gmmIntentUri = Uri.parse("google.navigation:q=40.7127837,-74.00594130000002");
+        String uriString = String.format(Locale.ENGLISH, "google.navigation:q=%f,%f",
+                YelpSetup.busLat, YelpSetup.busLong);
 
-        //Intent intent = new Intent(android.content.Intent.ACTION_VIEW,
-        //Uri.parse("http://maps.google.com/maps?saddr=20.344,34.34&daddr=20.5666,45.345"));
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uriString));
+        intent.setPackage("com.google.android.apps.maps"); //open in google maps by default
 
-        //String uri = String.format(Locale.ENGLISH, "geo:%f,%f", myLoc.getLatitude(), myLoc.getLongitude());
-        //Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uri));
-        //make sure something on the phone can open a google map
         if (intent.resolveActivity(getPackageManager()) != null) {
             startActivity(intent);
         }

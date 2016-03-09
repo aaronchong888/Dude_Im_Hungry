@@ -77,6 +77,13 @@ public class YelpSetup {
         busDist = distance(myLat, myLong, busLat, busLong);
     }
 
+    public double getBusLog() {
+        return busLong;
+    }
+    public double getBusLat() {
+        return busLat;
+    }
+
     // Calculates distance between two coordinates in miles
     public static double distance(double lat1, double lon1, double lat2, double lon2) {
         double theta = lon1 - lon2;
