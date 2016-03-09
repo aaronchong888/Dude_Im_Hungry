@@ -47,6 +47,8 @@ import java.text.DateFormat;
 import java.util.Date;
 import java.util.Locale;
 
+import com.example.alex.dudeimhungry.YelpSetup;
+
 
 
 
@@ -221,10 +223,10 @@ public class LaunchActivity extends ActionBarActivity
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 resultlayout.setVisibility(View.VISIBLE);
-                nameView.setText("Feast at Rieber"); // get name from yelp
-                distanceView.setText("5 km"); // get distance from yelp
+                nameView.setText(YelpSetup.businessName); // get name from yelp
+                distanceView.setText(YelpSetup.dist); // get distance from yelp
                 priceView.setText("$"); // get price range from yelp
-                float rating = 0; // get rating from yelp
+                float rating = (float) YelpSetup.rating; // get rating from yelp
                 ratebar.setRating(rating);
             }
         });

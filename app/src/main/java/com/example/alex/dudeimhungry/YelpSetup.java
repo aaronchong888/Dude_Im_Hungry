@@ -25,6 +25,11 @@ public class YelpSetup {
     String TOKEN = "ofVcS6smNc6Is42h2YBrfbOGP7AevBbi";
     String TOKEN_SECRET = "fW5zIji0LEMutS4JE2hI7AuMTXg";
 
+    // Restaurant field to pass to LaunchActivity
+    static String businessName;
+    static double rating;
+    static double dist;
+
     private YelpAPI yelpAPI;
 
     public void setUp() {
@@ -57,11 +62,11 @@ public class YelpSetup {
         // Get name, rating, distance
         // Display one-by-one in order that Yelp returns data to us
         // TODO: Loop through businesses if user hits "next restaurant" or something
-        String businessName = businesses.get(0).name();
-        Double rating = businesses.get(0).rating(); // Display with stars?
-        Double busLat = businesses.get(0).location().coordinate().latitude();
-        Double busLong = businesses.get(0).location().coordinate().longitude();
-        Double dist = distance(myLat, myLong, busLat, busLong);
+        businessName = businesses.get(0).name();
+        rating = businesses.get(0).rating(); // Display with stars?
+        double busLat = businesses.get(0).location().coordinate().latitude();
+        double busLong = businesses.get(0).location().coordinate().longitude();
+        dist = distance(myLat, myLong, busLat, busLong);
     }
 
     // Calculates distance between two coordinates in miles
