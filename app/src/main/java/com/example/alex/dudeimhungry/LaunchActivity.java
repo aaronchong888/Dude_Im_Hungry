@@ -57,6 +57,7 @@ public class LaunchActivity extends ActionBarActivity
     final String LAST_UPDATED_TIME_STRING_KEY = "LAST_UPDATED_TIME_STRING_KEY";
 
     //Globals
+    YelpSetup yelp;
     String mLastUpdateTime;
     boolean mRequestingLocationUpdates;
     LocationRequest mLocReq;
@@ -158,6 +159,7 @@ public class LaunchActivity extends ActionBarActivity
                 }
             }
         });
+        yelp.searchByCoordinate(); //now that we have gps coords we can search
     }
 
     @Override
@@ -205,7 +207,7 @@ public class LaunchActivity extends ActionBarActivity
         if(mLocReq == null) {
             createLocationRequest(); //update mLocReq
         }
-
+        yelp = new YelpSetup(); //initialize object
         // used for UI
         resultlayout = (LinearLayout)findViewById(R.id.ResultDisplay);
         hungrybtn = (ImageButton)findViewById(R.id.imageButton);
@@ -220,15 +222,15 @@ public class LaunchActivity extends ActionBarActivity
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 if (hitCount == 0) {
-                    YelpSetup.searchByCoordinate();
+                    yelp.searchByCoordinate();
                 }
-                YelpSetup.businessInfo(hitCount);
+                yelp.businessInfo(hitCount);
                 cickView.setVisibility(View.INVISIBLE);
                 resultlayout.setVisibility(View.VISIBLE);
-                nameView.setText(YelpSetup.businessName); // get name from yelp
-                distanceView.setText(Double.toString(YelpSetup.busDist)); // get distance from yelp
+                nameView.setText(yelp.businessName); // get name from yelp
+                distanceView.setText(Double.toString(yelp.busDist)); // get distance from yelp
                 //priceView.setText("$"); // get price range from yelp
-                float rating = (float) YelpSetup.rating; // get rating from yelp
+                float rating = (float) yelp.rating; // get rating from yelp
                 ratebar.setRating(rating);
                 hitCount++;
             }

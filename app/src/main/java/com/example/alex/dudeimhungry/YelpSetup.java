@@ -39,13 +39,18 @@ public class YelpSetup {
     static ArrayList<Business> businesses;
     private static YelpAPI yelpAPI;
 
+    //constructor
+    public YelpSetup() {
+        setUp();
+    }
+
     public void setUp() {
         // Creating the API object from YelpAPI library
         YelpAPIFactory apiFactory = new YelpAPIFactory(CONSUMER_KEY, CONSUMER_SECRET, TOKEN, TOKEN_SECRET);
         yelpAPI = apiFactory.createAPI();
     }
 
-    public static void searchByCoordinate() {
+    public void searchByCoordinate() {
         myLat = LaunchActivity.getUserLat();
         myLong = LaunchActivity.getUserLong();
         CoordinateOptions coordinate = CoordinateOptions.builder()
