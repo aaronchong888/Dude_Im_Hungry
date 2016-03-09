@@ -84,6 +84,9 @@ public class YelpSetup {
     public static void businessInfo(int busNum) {
         // Get name, rating, distance
         // Display one-by-one in order that Yelp returns data to us
+        if(busNum > totalResults) {
+            busNum %= totalResults; //quick wrap around function
+        }
         businessName = businesses.get(busNum).name();
         rating = businesses.get(busNum).rating();
         busLat = businesses.get(busNum).location().coordinate().latitude();
