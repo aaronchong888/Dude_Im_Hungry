@@ -228,7 +228,7 @@ public class LaunchActivity extends ActionBarActivity
                 cickView.setVisibility(View.INVISIBLE);
                 resultlayout.setVisibility(View.VISIBLE);
                 nameView.setText(yelp.businessName); // get name from yelp
-                distanceView.setText(String.format ("%.1f", yelp.busDist); // get distance from yelp
+                distanceView.setText(String.format ("%.1f", yelp.busDist) + " miles"); // get distance from yelp
                 //priceView.setText("$"); // get price range from yelp
                 float rating = (float) yelp.rating; // get rating from yelp
                 ratebar.setRating(rating);
