@@ -1,3 +1,338 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/9f98b807181ee7a773a5190617bc7553e6169485/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0ed5eafac8b2a2625210b5ad238c9ef40a31dc0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/7984bc1f00697de4ab0e0c30017f1796bbd588b6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_922b11ef0243f498318414c162a83457163a0cc9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/se.akerfeldt/okhttp-signpost/1.0.0/d28b2bc7927a8cf44da15671ce856f756e5428ce/okhttp-signpost-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d28b2bc7927a8cf44da15671ce856f756e5428ce">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-signpost-1.0.0_fe56fd4ee864715990ad5074e33d7e0fb79e4449/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/1b6d79ce575acc2b70b8cc662788eac78c1abb88/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b5529efe6753789837fdffbef1a8d7f757ba6c36/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/ca0a11ce4ee5035c9660988162c2b45b40f89311/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6e7c2ab68a3b935eb5060995ed8ea341922d7b5a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/972f8e2126789f49f728d081903d1545305f8a5f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d84409890828e07d344a3b9b1da545dba9897b51">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_60c35fe1074f144190a60f9fa14b6c04c9c92b93/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="685d0b2c590447e85284ed84712cb363ba04eff8">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.0.0_1cc9b47e18380d6df0d328a6b3363231519c0d27/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/ff016ea897d5164b258f4f46a0479f4de2070e80/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_91a0ca059d842c32f53338a08d45eac04abef5c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/e76078fcad1de6cee9fdfc1522ad1908f12b3f58/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b7d9e32d9933cda5cab43acf88e5c317c0dfcd0c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/39eb6f1e3587a459d3ade3d74eff726822291037/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4b465d37b44fe3d16647ca25c85e93be1af9e272/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/ed612e1cd9e87a32bc6b2b25c47a9767b27939a6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b564dc7347d42f928dfb7956e9bccf083bc37d81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/0445bb1a9586a88886563926983aae28c9cee7fb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e529276710ecf30cad235d39373bbc6aa9a3b68c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/cd1f11e894441df5d42c27f8b32dadb0f8c73f49/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_615207ba3be620a86d2d70f485d7c42fd29fe88b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value/1.1/f6951c141ea3e89c0f8b01da16834880a1ebf162/auto-value-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f6951c141ea3e89c0f8b01da16834880a1ebf162">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/auto-value-1.1_e138f4d7d896594a5d52050ff27401589498fb25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/17ac1c29ded8b1bff8aaf8f1ff0461c1019aa384/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_53b1db829a02137cc8ee0d596c5030f76c21a7d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.3/fd32786786e2adb664d5ecc965da47629dca14ba/commons-codec-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fd32786786e2adb664d5ecc965da47629dca14ba">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-codec-1.3_4fc5070dfbcc19b7f242424347e6c08fb0301565/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.4.0/d6a66c7a5f01cf500377bd669507a08cfeba882a/jackson-annotations-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d6a66c7a5f01cf500377bd669507a08cfeba882a">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-annotations-2.4.0_45abb04981bb26fd93556074d65d9aa61d5fd93c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/2599610d232acbbdd094b210a13e70e235e4644f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6708866a0afdca0557e5ae1cdcfb60254f551a87/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/307fef69c36d6e0da29203febdcecc10b18b1f20/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_188e0115eb59c69f38f4fcc670abb55abe2c901f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/e6a5829c06b95301cc24d8f9ea1f70ae2591cdf2/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a3d84f464437b4a23747249af72e871764e7c90e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/990e61f591c879f4e4625f008800903cffded92d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_555117382915638f16214b5babc0008bc130a3d8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.4.3/feff63199be7b8f495c2f3e2096dcb6bd5e5b0b3/jackson-databind-2.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="feff63199be7b8f495c2f3e2096dcb6bd5e5b0b3">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-databind-2.4.3_f4d3606c407ac353fe535f8180d12ff7852413e8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.4.3/4cb3dbb0c2f75b51aa7543c53252989785a0c609/jackson-core-2.4.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4cb3dbb0c2f75b51aa7543c53252989785a0c609">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/jackson-core-2.4.3_47a42cc838f8aebc6ba106df60901fd8b593e0d3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_cfa1ce213cd46c08203020d58bbe09d42722af1f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="741588bd4426cf74c85f7d8c708f41f54f9f3f7a">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_00c3be57c99e801f69f0efcd6bacd7db45949476/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/5755beafa7794b0753bf3346b95835bf7d3629c8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4e86306289ace4aa0cfec44a05ed2b410d36989d">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_93ea45e782a4d86b81c0ded8d7b712689f7eddc0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/5960adabfc6b2c2e9fc8a73bb4538fe2b7ec37e5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d7ef1686f9d64de399c14dbebe66e56c8d398fb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/retrofit/2.0.0-beta2/880d9e0997b2d1bfc98e0d121ced33ee5d04aac4/retrofit-2.0.0-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="880d9e0997b2d1bfc98e0d121ced33ee5d04aac4">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.0-beta2_2c42b6252dac113ebaaaf27a7b40f1e1fdebf8f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/5755beafa7794b0753bf3346b95835bf7d3629c8/output/jars/libs/internal_impl-22.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="b5b92f469d515a13d778900f6d50c03d12f35504">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.0.0_f19d51c5a36446b8853ad1037802931d085bc21e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_7af31f3bbce52383dfebdd59b24fe7f07865d34d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/ab7883b8728550183f43880faede487e00fad8df/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_145356ffff44065dde35a50cb25c3e6e417c4f19/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit/converter-jackson/2.0.0-beta2/4548c670afd8930f183c0aa1124c889464f8a0ea/converter-jackson-2.0.0-beta2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4548c670afd8930f183c0aa1124c889464f8a0ea">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-jackson-2.0.0-beta2_d9da4cdd83c2e71adbc664cb50dc344cef6fd40c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/a579e1c7ff1427c3cec19ad7bbae6f001d28b8bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c23b60e855134fb88ff09b5cddb93a02cb017b70/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.android/build-cache/f89c2fb1c26ef830c027e16b8fb9f9076a6bc658/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_039718740cad35c7d7b17b0c654869d0a55f1665/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/oauth.signpost/signpost-core/1.2.1.2/bf95955dcf3d5a78c201e49b0c336787ea73f161/signpost-core-1.2.1.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bf95955dcf3d5a78c201e49b0c336787ea73f161">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/signpost-core-1.2.1.2_31d1a33816d51397ff20cccc1f4f20eeab73ed1e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.yelp.clientlib/yelp-android/1.0.0/2f95ba7e129b83be3c86b1526e69dddea193cec5/yelp-android-1.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2f95ba7e129b83be3c86b1526e69dddea193cec5">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/yelp-android-1.0.0_f9355ce1ae5de49cd4a30e875e9e45602a3c79b7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/alex/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.7.0/1477ec5caf8319ab4b51eb43553cd66aa86fdea5/okhttp-2.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1477ec5caf8319ab4b51eb43553cd66aa86fdea5">
+        <dex dex="/home/alex/Workspace/Dude_Im_Hungry/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-2.7.0_63cdf23b0498e2cea3c5a6bf8fcef0057342195d/classes.dex" />
+    </item>
+
+</items>

@@ -4,12 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.content.IntentSender;
 import android.location.Location;
-
-import com.google.android.gms.location.LocationListener;
 import android.net.Uri;
 import android.os.Bundle;
-
-
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
@@ -21,28 +17,23 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RatingBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.common.api.PendingResult;
 import com.google.android.gms.common.api.ResultCallback;
-
 import com.google.android.gms.common.api.Status;
+import com.google.android.gms.location.LocationListener;
 import com.google.android.gms.location.LocationRequest;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.location.LocationSettingsRequest;
 import com.google.android.gms.location.LocationSettingsResult;
 import com.google.android.gms.location.LocationSettingsStates;
 import com.google.android.gms.location.LocationSettingsStatusCodes;
+import com.yelp.clientlib.entities.Business;
 
 import java.text.DateFormat;
 import java.util.Date;
-import java.util.Locale;
-
-import com.example.alex.dudeimhungry.YelpSetup;
-
-
 
 
 public class LaunchActivity extends ActionBarActivity
@@ -60,7 +51,6 @@ public class LaunchActivity extends ActionBarActivity
     YelpSetup yelp;
     String mLastUpdateTime;
     boolean mRequestingLocationUpdates;
-    LocationRequest mLocReq;
     GoogleApiClient mGoogleApiClient;
     Location myLoc = new Location("");
     static double myLat;
@@ -74,7 +64,7 @@ public class LaunchActivity extends ActionBarActivity
     private Button mapbtn;
     private RatingBar ratebar;
     private ImageView cickView;
-    static int hitCount = 0;
+    private Business _business;
 
     @Override
     protected void onStart() {
@@ -106,22 +96,13 @@ public class LaunchActivity extends ActionBarActivity
         //do whatever we need with the updates location here.
     }
 
-    // Coordinate retrieval functions
-    public static double getUserLat() {
-        return (34.0722);
-    }
-
-    public static double getUserLong() {
-        return (-118.4441);
-    }
-
     /*
     OnConnected means that we connected to GoogleApi, we dont necessarily have a location yet
      */
     @Override
     public void onConnected(Bundle bundle) {
         //adds the location request
-        LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder().addLocationRequest(mLocReq);
+        LocationSettingsRequest.Builder builder = new LocationSettingsRequest.Builder().addLocationRequest(createLocationRequest());
 
         //make sure the phone is giving us what we asked for
         PendingResult<LocationSettingsResult> result =
@@ -159,7 +140,7 @@ public class LaunchActivity extends ActionBarActivity
                 }
             }
         });
-        yelp.searchByCoordinate(); //now that we have gps coords we can search
+        yelp.findResults(); //now that we have gps coords we can search
     }
 
     @Override
@@ -204,9 +185,7 @@ public class LaunchActivity extends ActionBarActivity
 
 
         updateValuesFromBundle(savedInstanceState);
-        if(mLocReq == null) {
-            createLocationRequest(); //update mLocReq
-        }
+
         yelp = new YelpSetup(); //initialize object
         // used for UI
         resultlayout = (LinearLayout)findViewById(R.id.ResultDisplay);
@@ -217,22 +196,24 @@ public class LaunchActivity extends ActionBarActivity
         mapbtn = (Button)findViewById(R.id.btnDirection);
         ratebar = (RatingBar)findViewById(R.id.ratingBar);
         cickView = (ImageView)findViewById(R.id.imageClick);
+
+        /*
+            Hungry Button Listener
+         */
         hungrybtn.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View v) {
-                try {
-                    yelp.businessInfo(hitCount);
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
+                _business = yelp.next();
+
                 cickView.setVisibility(View.INVISIBLE);
                 resultlayout.setVisibility(View.VISIBLE);
-                nameView.setText(yelp.businessName);
-                distanceView.setText(String.format ("%.1f", yelp.busDist));
+                nameView.setText(_business.name());
+
+                //float d = _business.distance()
+                distanceView.setText("Distance");
                 distanceView.append(" miles");
-                float rating = (float) yelp.rating;
-                ratebar.setRating(rating);
-                hitCount++;
+                Double rating = _business.rating();
+                ratebar.setRating(rating.floatValue());
             }
         });
     }
@@ -247,7 +228,8 @@ public class LaunchActivity extends ActionBarActivity
     protected void startLocationUpdates() {
         try {
             Log.v("Location Settings", "Starting requestLocationUpdates()");
-            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient, mLocReq, this);
+            LocationServices.FusedLocationApi.requestLocationUpdates(mGoogleApiClient,
+                    createLocationRequest(), this);
         } catch(java.lang.IllegalStateException e) {
             Log.d("Location Settings", "GoogleApiClient is not working");
         }
@@ -322,30 +304,21 @@ public class LaunchActivity extends ActionBarActivity
         return super.onOptionsItemSelected(item);
     }
 
-
-    //Initialize LocationRequest for high-accuracy update every 10 seconds
-    protected void createLocationRequest() {
-        mLocReq = new LocationRequest();
-        mLocReq.setInterval(10000); //in ms
-        mLocReq.setFastestInterval(5000); //upper rate to receive updates
-        mLocReq.setPriority(LocationRequest.PRIORITY_HIGH_ACCURACY); //highest accuracy and power
+    //Initialize LocationRequest for low power at low refresh rate
+    // because im a good person
+    protected LocationRequest createLocationRequest() {
+        LocationRequest l = new LocationRequest();
+        l.setInterval(45000); //in ms
+        l.setFastestInterval(15000); //upper rate to receive updates
+        l.setPriority(LocationRequest.PRIORITY_LOW_POWER);
+        return l;
     }
 
     public void onGPSClick(View v) {
-        //check if we have a location
-        if(myLoc == null) {
-            Toast.makeText(this, R.string.please_enable_gps, Toast.LENGTH_LONG).show();
-            return;
-        }
-        //Uri gmmIntentUri = Uri.parse("google.navigation:q=40.7127837,-74.00594130000002");
-        String uriString = String.format(Locale.ENGLISH, "google.navigation:q=%f,%f",
-                YelpSetup.busLat, YelpSetup.busLong);
-
-        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(uriString));
-        intent.setPackage("com.google.android.apps.maps"); //open in google maps by default
-
-        if (intent.resolveActivity(getPackageManager()) != null) {
-            startActivity(intent);
-        }
+        Uri uri = Uri.parse("google.navigation:q=" + Uri.encode(_business.location().address().get(0)
+                + ", " + _business.location().city()));
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, uri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
     }
 }
