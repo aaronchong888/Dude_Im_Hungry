@@ -8,6 +8,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -192,7 +193,6 @@ public class LaunchActivity extends ActionBarActivity
         hungrybtn = (ImageButton)findViewById(R.id.imageButton);
         nameView = (TextView)findViewById(R.id.editName);
         distanceView = (TextView)findViewById(R.id.editDistance);
-        //priceView = (TextView)findViewById(R.id.editPrice);
         mapbtn = (Button)findViewById(R.id.btnDirection);
         ratebar = (RatingBar)findViewById(R.id.ratingBar);
         cickView = (ImageView)findViewById(R.id.imageClick);
@@ -209,6 +209,16 @@ public class LaunchActivity extends ActionBarActivity
                 resultlayout.setVisibility(View.VISIBLE);
                 nameView.setText(_business.name());
 
+                int l = _business.name().length();
+                if( l < 20)
+                    nameView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 25);
+                if( l < 20)
+                    nameView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 20);
+                else if (l < 30)
+                    nameView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 15);
+                else
+                    nameView.setTextSize(TypedValue.COMPLEX_UNIT_SP, 10);
+
                 //float d = _business.distance()
                 distanceView.setText("Distance");
                 distanceView.append(" miles");
@@ -217,13 +227,6 @@ public class LaunchActivity extends ActionBarActivity
             }
         });
     }
-
-    @Override
-    protected void onPause() {
-        super.onPause();
-        stopLocationUpdates();
-    }
-
 
     protected void startLocationUpdates() {
         try {
@@ -243,6 +246,30 @@ public class LaunchActivity extends ActionBarActivity
         } catch(java.lang.IllegalStateException e) {
             Log.d("Location Settings", "GoogleApiClient is not connected");
         }
+    }
+
+    //Initialize LocationRequest for low power at low refresh rate
+    // because im a good person
+    protected LocationRequest createLocationRequest() {
+        LocationRequest l = new LocationRequest();
+        l.setInterval(45000); //in ms
+        l.setFastestInterval(15000); //upper rate to receive updates
+        l.setPriority(LocationRequest.PRIORITY_LOW_POWER);
+        return l;
+    }
+
+    public void onGPSClick(View v) {
+        Uri uri = Uri.parse("google.navigation:q=" + Uri.encode(_business.location().address().get(0)
+                + ", " + _business.location().city()));
+        Intent mapIntent = new Intent(Intent.ACTION_VIEW, uri);
+        mapIntent.setPackage("com.google.android.apps.maps");
+        startActivity(mapIntent);
+    }
+
+    @Override
+    protected void onPause() {
+        super.onPause();
+        stopLocationUpdates();
     }
 
     @Override
@@ -304,21 +331,5 @@ public class LaunchActivity extends ActionBarActivity
         return super.onOptionsItemSelected(item);
     }
 
-    //Initialize LocationRequest for low power at low refresh rate
-    // because im a good person
-    protected LocationRequest createLocationRequest() {
-        LocationRequest l = new LocationRequest();
-        l.setInterval(45000); //in ms
-        l.setFastestInterval(15000); //upper rate to receive updates
-        l.setPriority(LocationRequest.PRIORITY_LOW_POWER);
-        return l;
-    }
 
-    public void onGPSClick(View v) {
-        Uri uri = Uri.parse("google.navigation:q=" + Uri.encode(_business.location().address().get(0)
-                + ", " + _business.location().city()));
-        Intent mapIntent = new Intent(Intent.ACTION_VIEW, uri);
-        mapIntent.setPackage("com.google.android.apps.maps");
-        startActivity(mapIntent);
-    }
 }
